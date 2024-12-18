@@ -28,13 +28,11 @@ import app.waste2wealth.com.ui.theme.monteSB
 import app.waste2wealth.com.ui.theme.textColor
 
 @Composable
-
 fun BottomBar(navController: NavController) {
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination
     Card(
-        modifier = Modifier
-            .fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth(),
         backgroundColor = appBackground,
         elevation = 5.dp,
         shape = RoundedCornerShape(17.dp)
@@ -47,42 +45,42 @@ fun BottomBar(navController: NavController) {
             backgroundColor = appBackground
         ) {
             items.forEach {
-                val isYellow = currentRoute?.hierarchy?.any { nav ->
+                val isSelected = currentRoute?.hierarchy?.any { nav ->
                     nav.route == it.route
                 } == true
                 BottomNavigationItem(
                     icon = {
-                        it.icon?.let {
+                        it.icon?.let { icon ->
                             Icon(
-                                painter = painterResource(id = it),
+                                painter = painterResource(id = icon),
                                 contentDescription = "",
                                 modifier = Modifier
                                     .size(35.dp)
                                     .padding(bottom = 5.dp),
-                                tint = if (isYellow) Color.White else textColor
+                                tint = if (isSelected) Color.White else textColor
                             )
                         }
                     },
                     label = {
-                        it.title?.let {
+                        it.title?.let { title ->
                             Text(
-                                text = it,
-                                color = if (isYellow) Color.White else textColor,
+                                text = title,
+                                color = if (isSelected) Color.White else textColor,
                                 softWrap = true,
                                 fontFamily = monteSB,
                                 fontSize = 10.sp
                             )
                         }
                     },
-                    selected = isYellow,
+                    selected = isSelected,
                     selectedContentColor = Color.Yellow,
                     unselectedContentColor = Color.White.copy(alpha = 0.4f),
                     modifier = Modifier
-                        .background(if (isYellow) textColor else Color.White)
+                        .background(if (isSelected) textColor else Color.White)
                         .clip(RoundedCornerShape(17.dp)),
                     onClick = {
-                        it.route?.let { it1 ->
-                            navController.navigate(it1) {
+                        it.route?.let { route ->
+                            navController.navigate(route) {
                                 popUpTo(Screens.Dashboard.route) {
                                     saveState = true
                                 }

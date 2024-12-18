@@ -20,8 +20,8 @@ val appBackground: Color
 
 val CardColor: Color
     @Composable
-    get() = if (isDarkThemeEnabled) Color(0xFFCFDCFE) else Color(0xFFCFDCFE)
+    get() = if (isDarkThemeEnabled) Color(0xfff6ffd2) else Color(0xfff6ffd2)
 
 val textColor: Color
     @Composable
-    get() = if (isDarkThemeEnabled) Color(0xFF3549A5) else Color(0xFF3549A5)
+    get() = if (isDarkThemeEnabled) Color(0xFFA4C639) else Color(0xFFA4C639)

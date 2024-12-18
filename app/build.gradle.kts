@@ -119,6 +119,7 @@ dependencies {
     implementation(libs.firebase.jet.firestore)
     implementation(libs.firebase.auth.ktx)
     implementation(libs.firebase.storage)
+    implementation("com.google.firebase:firebase-database:20.0.5")
 
     //Stacked Cards
     implementation(libs.stacked.cards)

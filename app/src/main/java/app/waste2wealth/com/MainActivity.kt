@@ -19,6 +19,7 @@ import app.waste2wealth.com.ui.theme.appBackground
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.google.android.gms.auth.api.phone.SmsRetriever
+import com.google.firebase.FirebaseApp
 import dagger.hilt.android.AndroidEntryPoint
 import javax.annotation.Nullable
 
@@ -30,6 +31,8 @@ class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalAnimationApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // Initialize Firebase
+        FirebaseApp.initializeApp(this)
         setContent {
             Waste2WealthTheme {
                 val systemUiController = rememberSystemUiController()

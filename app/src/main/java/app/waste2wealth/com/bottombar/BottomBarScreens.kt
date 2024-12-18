@@ -11,10 +11,14 @@ sealed class BottomBarScreens(val route: String?, val title: String?, val icon: 
 
     object CommunityScreen :
         BottomBarScreens(Screens.Community.route, "Community", R.drawable.commi)
+
+    // New Screen for Track Icon
+    object TrackScreen : BottomBarScreens(Screens.Track.route, "Track", R.drawable.track_icon)
 }
 
 val items = listOf(
     BottomBarScreens.HomeScreen,
     BottomBarScreens.RewardsScreen,
-    BottomBarScreens.CommunityScreen
+    BottomBarScreens.CommunityScreen,
+    BottomBarScreens.TrackScreen // Add TrackScreen here
 )

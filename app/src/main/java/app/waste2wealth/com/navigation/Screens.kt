@@ -5,6 +5,7 @@ sealed class Screens(val route: String) {
     object Onboarding : Screens("onboarding")
     object CompleteProfile : Screens("completeProfile")
     object Community : Screens("community")
+    object Track : Screens("track")
     object SettingUp : Screens("settingUp")
     object ReportWaste : Screens("reportWaste")
     object CollectWasteLists : Screens("collectWasteLists")
@@ -24,6 +25,7 @@ sealed class Screens(val route: String) {
     object FailureTask : Screens("failureTask")
     object QrCodeScanner : Screens("qrCodeScanner")
     object Splash : Screens("splash")
+
 
 }
 

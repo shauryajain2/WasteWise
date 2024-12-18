@@ -258,7 +258,7 @@ fun CompleteProfile() {
 
             }
 
-            TextFieldWithIcons(
+            /*TextFieldWithIcons(
                 textValue = "Phone Number",
                 placeholder = "Phone Number (with Country Code)",
                 icon = Icons.Filled.PhoneIphone,
@@ -327,7 +327,7 @@ fun CompleteProfile() {
                 keyboardType = KeyboardType.Number,
                 imeAction = ImeAction.Next,
                 isEnabled = isOtpSent,
-            )
+            ) */
             ExposedDropdownMenuBox(
                 expanded = isGenderExpansded,
                 onExpandedChange = {

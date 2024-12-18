@@ -14,32 +14,46 @@ data class Challenges(
 
 val challengesList = listOf(
     Challenges(
-        date = "18th June 2023",
-        time = "8am to 9am",
-        location = "Juhu beach , Mumbai",
+        date = "15 December 2024",
+        time = "8am to 11am",
+        location = "Yamuna Ghat , Delhi",
         points = 100,
-        image = "https://firebasestorage.googleapis.com/v0/b/waste2wealth-225f8.appspot.com/o/Challenges%2Fimage%207Beach%20Warriors%20Description.png?alt=media&token=da213fc9-b01e-4e23-b55c-df158148afee&_gl=1*9a195i*_ga*NTE4MDg5MzA2LjE2ODUwNDMxMzQ.*_ga_CW55HF8NVT*MTY4NTg0OTMzNS4yLjEuMTY4NTg1MDY2OC4wLjAuMA..",
-        orgName = "Beach Warriors",
-        title = "Beach Cleanup",
+        image = "https://images.cnbctv18.com/wp-content/uploads/2019/07/290e0ac4cfa5491b420c40eb6a500711.jpg?impolicy=website&width=640&height=360",
+        orgName = "NMCG",
+        title = "Clean Yamuna",
         icon = "https://firebasestorage.googleapis.com/v0/b/waste2wealth-225f8.appspot.com/o/Challenges%2Fimage%2062Beach%20warriors%20icon%20.png?alt=media&token=76bdf9bb-d8c3-468f-8920-c247c2b91609&_gl=1*10rpo87*_ga*NTE4MDg5MzA2LjE2ODUwNDMxMzQ.*_ga_CW55HF8NVT*MTY4NTg0OTMzNS4yLjEuMTY4NTg1MDU1MC4wLjAuMA.."
 
     ),
 
     Challenges(
-        date = "28th June 2023",
-        time = "7am to 10am",
-        location = "Sagar Vihar, Sector 8, Vashi",
+        date = "7 October 2024",
+        time = "6am to 10am",
+        location = "Assi Ghat, Banaras ",
         points = 100,
-        image = "https://firebasestorage.googleapis.com/v0/b/waste2wealth-225f8.appspot.com/o/Challenges%2Fimage%2051Mangrove%20Foundation%20Description.png?alt=media&token=77da4d19-dd3a-4fd1-b0e9-e90980943e2c&_gl=1*q0q04s*_ga*NTE4MDg5MzA2LjE2ODUwNDMxMzQ.*_ga_CW55HF8NVT*MTY4NTg0OTMzNS4yLjEuMTY4NTg1MTAzMy4wLjAuMA..",
-        title = "Mangrove cleanup",
-        orgName = "Mangrove Foundation",
+        image = "https://bsmedia.business-standard.com/_media/bs/img/article/2015-05/15/full/1431708776-6275.jpg?im=FeatureCrop,size=(826,465)",
+        title = "GANGA CLEANUP",
+        orgName = "Swechha",
+        icon = "https://firebasestorage.googleapis.com/v0/b/waste2wealth-225f8.appspot.com/o/Challenges%2Fimage%2063Swechha%20%20Icon.png?alt=media&token=1ab6fbb6-3e8b-4d85-8129-5aecbacf6300&_gl=1*hj6xgy*_ga*NTE4MDg5MzA2LjE2ODUwNDMxMzQ.*_ga_CW55HF8NVT*MTY4NTg0OTMzNS4yLjEuMTY4NTg1MTE2OS4wLjAuMA.."
+
+
+    ),
+
+
+    Challenges(
+        date = "18 October 2024",
+        time = "7am to 10am",
+        location = "Sanjay Van, New Delhi",
+        points = 100,
+        image = "https://news.jhatkaa.org/wp-content/uploads/2021/12/1.png",
+        title = "Sanjay Van Cleanup",
+        orgName = "Clean Delhi Foundation",
         icon = "https://firebasestorage.googleapis.com/v0/b/waste2wealth-225f8.appspot.com/o/Challenges%2Fimage%2061Mangrove%20Foundation%20icon%20.png?alt=media&token=3c94ecab-ee61-4c63-8b51-a15dc99b44af&_gl=1*18647na*_ga*NTE4MDg5MzA2LjE2ODUwNDMxMzQ.*_ga_CW55HF8NVT*MTY4NTg0OTMzNS4yLjEuMTY4NTg1MTA3OS4wLjAuMA.."
 
 
     ),
 
     Challenges(
-        date = "29th June 2023",
+        date = "29th May 2024",
         time = "8am to 10am",
         location = "462, Senapati Bapat Marg, Lower Parel",
         points = 100,
@@ -53,7 +67,7 @@ val challengesList = listOf(
     ),
 
     Challenges(
-        date = "30th June 2023",
+        date = "30th May 2024",
         time = "8am to 10am",
         location = "Sahakar Nagar,  Andheri West, ",
         points = 100,
@@ -66,7 +80,7 @@ val challengesList = listOf(
     ),
 
     Challenges(
-        date = "19th June 2023",
+        date = "19th May 2024",
         time = "6am to 11am",
         location = "Chanakya View Point, Navi Mumbai ",
         points = 100,
@@ -80,7 +94,7 @@ val challengesList = listOf(
     ),
 
     Challenges(
-        date = "25th June 2023",
+        date = "25th May 2024",
         time = "8am to 10am",
         location = "CENTRAL PARK, Kharghar ",
         points = 100,
@@ -92,7 +106,7 @@ val challengesList = listOf(
     ),
 
     Challenges(
-        date = "25th June 2023",
+        date = "25th May 2024",
         time = "8am to 10am",
         location = "CENTRAL PARK, Kharghar ",
         points = 100,
@@ -106,7 +120,7 @@ val challengesList = listOf(
     ),
 
     Challenges(
-        date = "10th June 2023",
+        date = "10th May 2024",
         time = "10pm to 12am",
         location = "Panvel Cluster , Sector 19A ",
         points = 100,

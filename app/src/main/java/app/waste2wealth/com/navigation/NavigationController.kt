@@ -38,6 +38,7 @@ import app.waste2wealth.com.rewards.RewardDetails
 import app.waste2wealth.com.successtask.DeliveryDetailsScreen
 import app.waste2wealth.com.tasksDetail.TasksDetails
 import app.waste2wealth.com.tasksList.TasksLists
+import app.waste2wealth.com.track.TrackScreen
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
 
@@ -153,6 +154,7 @@ fun NavigationController(
                 pfp = profile.value
             )
         }
+        composable(Screens.Track.route) { TrackScreen() }
         composable(Screens.ReportWaste.route) {
             ReportWaste(
                 navController = navController, viewModel = viewModel,
@@ -161,6 +163,7 @@ fun NavigationController(
                 pfp = profile.value
             )
         }
+
         composable(Screens.CollectWasteLists.route) {
             CollectWaste(navController = navController, viewModel = viewModel)
         }
@@ -276,7 +279,7 @@ fun NavigationController(
         composable(Screens.QrCodeScanner.route) {
             ScanQr(viewModel = locationViewModel)
         }
-        
+
         composable(Screens.Splash.route){
             SplashScreen(navController = navController, email = email.value)
         }

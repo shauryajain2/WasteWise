@@ -1,4 +1,4 @@
-package app.waste2wealth.com.login
+/*package app.waste2wealth.com.login
 
 import androidx.compose.animation.*
 import androidx.compose.animation.core.tween
@@ -176,4 +176,4 @@ fun OTPScreen(
 }
 
 
-
+*/

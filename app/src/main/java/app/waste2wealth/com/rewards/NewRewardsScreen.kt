@@ -69,7 +69,7 @@ fun NewRewardsScreen(
 ) {
     val onClick = {
         viewModel.rewardImage.value =
-            "https://img.freepik.com/premium-psd/headphone-giveaway-contestpromotion-instagram-facebook-social-media-post-template_501590-116.jpg?w=2000"
+            "https://pbs.twimg.com/media/GX1gXL7XYAAy9zC?format=jpg&name=medium"
         viewModel.rewardTitle.value = "Boat Headphones"
         viewModel.rewardDescription.value =
             "Immerse yourself in exceptional audio quality with these headphones," +
@@ -232,7 +232,7 @@ fun NewRewardsScreen(
                                     fontFamily = monteBold,
                                 )
                                 AsyncImage(
-                                    model = "https://img.freepik.com/premium-psd/headphone-giveaway-contestpromotion-instagram-facebook-social-media-post-template_501590-116.jpg?w=2000",
+                                    model = "https://pbs.twimg.com/media/GX1gXL7XYAAy9zC?format=jpg&name=medium",
                                     contentDescription = "",
                                     modifier = Modifier
                                         .padding(top = 20.dp)
@@ -276,7 +276,7 @@ fun NewRewardsScreen(
                                                         shape = RoundedCornerShape(10.dp)
                                                     ) {
                                                         AsyncImage(
-                                                            model = "https://img.freepik.com/premium-psd/headphone-giveaway-contestpromotion-instagram-facebook-social-media-post-template_501590-116.jpg?w=2000",
+                                                            model = "https://pbs.twimg.com/media/GX1gXL7XYAAy9zC?format=jpg&name=medium",
                                                             contentDescription = "",
                                                             modifier = Modifier
                                                                 .padding(0.dp)
@@ -331,8 +331,8 @@ fun NewRewardsScreen(
                                                         shape = RoundedCornerShape(10.dp)
                                                     ) {
                                                         AsyncImage(
-                                                            model = "https://img.freepik.com/premium-psd/headphone-giveaway-contest" +
-                                                                    "-promotion-instagram-facebook-social-media-post-template_501590-116.jpg?w=2000",
+                                                            model = "https://pbs.twimg.com/media/GX1gXL7XYAAy9zC?format=jpg&name=medium" +
+                                                                    "https://pbs.twimg.com/media/GX1gXL7XYAAy9zC?format=jpg&name=medium",
                                                             contentDescription = "",
                                                             modifier = Modifier
                                                                 .padding(0.dp)
@@ -374,8 +374,8 @@ fun NewRewardsScreen(
                                     modifier = Modifier.offset(y = (-100).dp)
                                 )
                                 AsyncImage(
-                                    model = "https://img.freepik.com/premium-psd/headphone-giveaway-contest" +
-                                            "-promotion-instagram-facebook-social-media-post-template_501590-116.jpg?w=2000",
+                                    model = "https://pbs.twimg.com/media/GX1gXL7XYAAy9zC?format=jpg&name=medium" +
+                                            "https://pbs.twimg.com/media/GX1gXL7XYAAy9zC?format=jpg&name=medium",
                                     contentDescription = "",
                                     modifier = Modifier
                                         .padding(top = 0.dp)
@@ -403,8 +403,8 @@ fun NewRewardsScreen(
                                                         shape = RoundedCornerShape(10.dp)
                                                     ) {
                                                         AsyncImage(
-                                                            model = "https://img.freepik.com/premium-psd/headphone-giveaway-contest" +
-                                                                    "-promotion-instagram-facebook-social-media-post-template_501590-116.jpg?w=2000",
+                                                            model = "https://pbs.twimg.com/media/GX1gXL7XYAAy9zC?format=jpg&name=medium" +
+                                                                    "https://pbs.twimg.com/media/GX1gXL7XYAAy9zC?format=jpg&name=medium",
                                                             contentDescription = "",
                                                             modifier = Modifier
                                                                 .padding(0.dp)

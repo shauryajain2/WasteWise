@@ -149,14 +149,14 @@ fun LoginPage(navController: NavHostController, scaffoldState: ScaffoldState) {
                 fontFamily = monteNormal
             )
         }
-        OTPScreen(
+        /*OTPScreen(
             visible = proceedToOTP,
             phoneNumber = phoneNumber,
             isTimerRunning = isTimerRunning,
             scaffoldState = scaffoldState,
             navHostController = navController,
             focusRequester = focusRequester
-        )
+        ) */
 
     }
 }
